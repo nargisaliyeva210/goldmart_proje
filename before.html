@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>GOLDMART</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/glightbox.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&amp;family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="preloader">
+        <div id="ctn-preloader" class="ctn-preloader">
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+    </div>
+    <header class="header__section mb-20">
+        <div style="background-color:white;padding: 0px 10px 10px 10px;position: fixed;top: 0px;right: 0;left: 0;z-index: 1000;">
+            <div class="container">
+                <div class="main__header--inner position__relative d-flex justify-content-between align-items-center">
+                    <a href="cart.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_1380_175)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.71888 7.28097C1.64903 7.2113 1.59362 7.12854 1.55581 7.03742C1.518 6.9463 1.49854 6.84862 1.49854 6.74997C1.49854 6.65132 1.518 6.55364 1.55581 6.46252C1.59362 6.3714 1.64903 6.28864 1.71888 6.21897L7.71888 0.218971C7.85971 0.0781409 8.05071 -0.000976562 8.24988 -0.000976562C8.44904 -0.000976563 8.64005 0.0781409 8.78088 0.218971C8.92171 0.359801 9.00082 0.550807 9.00082 0.749971C9.00082 0.949134 8.92171 1.14014 8.78088 1.28097L4.06038 5.99997H18.7499C19.7444 5.99997 20.6983 6.39506 21.4015 7.09832C22.1048 7.80158 22.4999 8.75541 22.4999 9.74997V21.75C22.4999 21.9489 22.4209 22.1396 22.2802 22.2803C22.1396 22.421 21.9488 22.5 21.7499 22.5C21.551 22.5 21.3602 22.421 21.2195 22.2803C21.0789 22.1396 20.9999 21.9489 20.9999 21.75V9.74997C20.9999 9.15323 20.7628 8.58094 20.3409 8.15898C19.9189 7.73702 19.3466 7.49997 18.7499 7.49997H4.06038L8.78088 12.219C8.85061 12.2887 8.90592 12.3715 8.94366 12.4626C8.9814 12.5537 9.00082 12.6514 9.00082 12.75C9.00082 12.8486 8.9814 12.9462 8.94366 13.0373C8.90592 13.1285 8.85061 13.2112 8.78088 13.281C8.71114 13.3507 8.62836 13.406 8.53725 13.4438C8.44614 13.4815 8.34849 13.5009 8.24988 13.5009C8.15126 13.5009 8.05361 13.4815 7.9625 13.4438C7.87139 13.406 7.78861 13.3507 7.71888 13.281L1.71888 7.28097Z" fill="#212751"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1380_175">
+                              <rect width="24" height="24" fill="white"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                    </a>
+                    <div style="color: #212751; font-size: 20px; font-family: 'Roboto', sans-serif; font-weight: 600; letter-spacing: 0.40px; word-wrap: break-word"><a>Əvvəl baxdıqları</a></div>
+                    <div class="header__account header__sticky--none">
+                        <ul class="header__account--wrapper d-flex align-items-center">
+                            <li class="header__account--items  header__account--search__items mobile__d--block d-sm-2-none">
+                                <a class="header__account--btn search__open--btn" href="javascript:void(0)" data-offcanvas="">
+                                    <svg class="product__items--action__btn--svg" xmlns="http://www.w3.org/2000/svg" width="22.51" height="20.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"></path></svg>
+                                    <span class="visually-hidden">Search</span>  
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="predictive__search--box ">
+            <div class="predictive__search--box__inner">
+                <form class="predictive__search--form" action="#">
+                    <label>
+                        <input class="predictive__search--input" placeholder="Goldmartda axtar" type="text">
+                    </label>
+                    <button class="predictive__search--button text-white" aria-label="search button"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M20.9999 20.9999L16.6499 16.6499" stroke="white" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <button class="predictive__search--close__btn" aria-label="search close" data-offcanvas>
+                <svg class="predictive__search--close__icon" xmlns="http://www.w3.org/2000/svg" width="40.51"
+                    height="30.443" viewBox="0 0 512 512">
+                    <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="32" d="M368 368L144 144M368 144L144 368" />
+                </svg>
+            </button>
+        </div>
+    </header>
+    <main id="gnmeh" class="main__content_wrapper">
+        <section id="gece" class="product__section section--padding  pt-0">
+            <div class="container">
+                <div style="float: left" class="product__section--inner">
+                    <div class="row">
+                        <div class="col-lg-9" style="width: 100%">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div id="recent" class="tab-pane fade show active" role="tabpanel">
+                                    <div class="product__wrapper">
+                                        <div class="row mb--n30">
+                                            <div class="col-lg-3 col-md-3 col-sm-6 col-6 custom-col mb-30">
+                                                <div class="box17">
+                                                  <div class="group">
+                                                    <div class="overlap">
+                                                      <div class="shopping-cart">
+                                                        <div class="overlap-group">
+                                                          <div class="foto">
+                                                            <div class="div">
+                                                              <div class="rectangle"></div>
+                                                              <img class="img" src="assets/img/shop/1.png">
+                                                              <div class="rectangle-2"></div>
+                                                              <div class="text-wrapper">40%</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="qiymt">
+                                                            <p class="element">
+                                                              <span class="span">533.70₼</span>
+                                                              <span class="text-wrapper-2">&nbsp;&nbsp;</span>
+                                                              <span class="text-wrapper-3">849.50₼</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="aqlama"><p class="p">Günəşdən qoruyucu krem Tony Moly İntense Care</p></div>
+                                                          <div class="taksit">
+                                                            <div class="overlap-2">
+                                                              <div class="overlap-group-2">
+                                                                <div class="rectangle-3"></div>
+                                                                <div class="text-wrapper-4">12 ay</div>
+                                                              </div>
+                                                              <div class="text-wrapper-5">18 ay</div>
+                                                              <div class="text-wrapper-6">6 ay</div>
+                                                              <div class="text-wrapper-7">295.83 AZN</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="satc">
+                                                            <p class="sat-c-tony-moly">
+                                                              <span class="text-wrapper-8">Satıcı:</span> <span class="text-wrapper-9"> Tony Moly Azerbaijan</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="rezerv-et">
+                                                            <div class="div-wrapper">
+                                                            <svg style="transform: translate(30px,2px);" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                              <path d="M3.375 16.3125C2.92745 16.3125 2.49822 16.1347 2.18176 15.8182C1.86529 15.5018 1.6875 15.0726 1.6875 14.625V3.375C1.6875 2.92745 1.86529 2.49822 2.18176 2.18176C2.49822 1.86529 2.92745 1.6875 3.375 1.6875H12.375C12.5242 1.6875 12.6673 1.74676 12.7727 1.85225C12.8782 1.95774 12.9375 2.10082 12.9375 2.25C12.9375 2.39918 12.8782 2.54226 12.7727 2.64775C12.6673 2.75324 12.5242 2.8125 12.375 2.8125H3.375C3.22582 2.8125 3.08274 2.87176 2.97725 2.97725C2.87176 3.08274 2.8125 3.22582 2.8125 3.375V14.625C2.8125 14.7742 2.87176 14.9173 2.97725 15.0227C3.08274 15.1282 3.22582 15.1875 3.375 15.1875H14.625C14.7742 15.1875 14.9173 15.1282 15.0227 15.0227C15.1282 14.9173 15.1875 14.7742 15.1875 14.625V9C15.1875 8.85082 15.2468 8.70774 15.3523 8.60225C15.4577 8.49676 15.6008 8.4375 15.75 8.4375C15.8992 8.4375 16.0423 8.49676 16.1477 8.60225C16.2532 8.70774 16.3125 8.85082 16.3125 9V14.625C16.3125 15.0726 16.1347 15.5018 15.8182 15.8182C15.5018 16.1347 15.0726 16.3125 14.625 16.3125H3.375Z" fill="#212751"></path>
+                                                              <path d="M9.39823 11.6482L17.2732 3.77323C17.3255 3.72093 17.367 3.65884 17.3953 3.59051C17.4236 3.52218 17.4382 3.44894 17.4382 3.37498C17.4382 3.30102 17.4236 3.22778 17.3953 3.15945C17.367 3.09111 17.3255 3.02903 17.2732 2.97673C17.2209 2.92443 17.1588 2.88294 17.0905 2.85464C17.0222 2.82634 16.9489 2.81177 16.875 2.81177C16.801 2.81177 16.7278 2.82634 16.6594 2.85464C16.5911 2.88294 16.529 2.92443 16.4767 2.97673L8.99998 10.4546L6.02323 7.47673C5.97093 7.42443 5.90884 7.38294 5.84051 7.35464C5.77218 7.32633 5.69894 7.31177 5.62498 7.31177C5.55102 7.31177 5.47778 7.32633 5.40945 7.35464C5.34111 7.38294 5.27903 7.42443 5.22673 7.47673C5.17443 7.52903 5.13294 7.59111 5.10464 7.65945C5.07634 7.72778 5.06177 7.80102 5.06177 7.87498C5.06177 7.94894 5.07634 8.02218 5.10464 8.09051C5.13294 8.15884 5.17443 8.22093 5.22673 8.27323L8.60173 11.6482C8.65398 11.7006 8.71605 11.7422 8.78439 11.7705C8.85273 11.7989 8.92599 11.8135 8.99998 11.8135C9.07397 11.8135 9.14723 11.7989 9.21557 11.7705C9.2839 11.7422 9.34598 11.7006 9.39823 11.6482Z" fill="#212751"></path>
+                                                            </svg>
+                                                            <div class="text-wrapper-10">
+                                                            Rezerv et
+                                                            </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="camera-video-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none">
+                                                              <g clip-path="url(#clip0_1512_207)">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.12997C0 1.59706 0.210714 1.08596 0.585786 0.709135C0.960859 0.332306 1.46957 0.120605 2 0.120605H9.5C9.98509 0.120548 10.4537 0.297623 10.8185 0.618856C11.1833 0.940089 11.4195 1.38358 11.483 1.86675L14.593 0.478273C14.7452 0.410127 14.912 0.381284 15.0781 0.394367C15.2443 0.40745 15.4045 0.462043 15.5443 0.553185C15.6841 0.644326 15.7991 0.769125 15.8786 0.916238C15.9582 1.06335 15.9999 1.22811 16 1.39555V8.8925C15.9999 9.0598 15.9581 9.22442 15.8786 9.37141C15.7991 9.51841 15.6843 9.64312 15.5446 9.73424C15.4049 9.82535 15.2449 9.87998 15.0788 9.89318C14.9128 9.90637 14.7462 9.8777 14.594 9.80977L11.483 8.4213C11.4195 8.90446 11.1833 9.34796 10.8185 9.66919C10.4537 9.99042 9.98509 10.1675 9.5 10.1674H2C1.46957 10.1674 0.960859 9.95574 0.585786 9.57891C0.210714 9.20208 0 8.69099 0 8.15807V2.12997ZM11.5 7.32921L15 8.8925V1.39555L11.5 2.95884V7.32921ZM2 1.12529C1.73478 1.12529 1.48043 1.23114 1.29289 1.41955C1.10536 1.60797 1 1.86351 1 2.12997V8.15807C1 8.42453 1.10536 8.68008 1.29289 8.86849C1.48043 9.05691 1.73478 9.16276 2 9.16276H9.5C9.76522 9.16276 10.0196 9.05691 10.2071 8.86849C10.3946 8.68008 10.5 8.42453 10.5 8.15807V2.12997C10.5 1.86351 10.3946 1.60797 10.2071 1.41955C10.0196 1.23114 9.76522 1.12529 9.5 1.12529H2Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_207">
+                                                                  <rect width="16" height="10.288" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                      <div class="heart-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                              <g clip-path="url(#clip0_1512_211)">
+                                                                <path d="M7.9999 2.81966L7.2829 2.06346C5.5999 0.288373 2.5139 0.90093 1.3999 3.13261C0.876895 4.18227 0.758895 5.69776 1.7139 7.63188C2.6339 9.49418 4.5479 11.7248 7.9999 14.1545C11.4519 11.7248 13.3649 9.49418 14.2859 7.63188C15.2409 5.69673 15.1239 4.18227 14.5999 3.13261C13.4859 0.90093 10.3999 0.287347 8.7169 2.06243L7.9999 2.81966ZM7.9999 15.3909C-7.33311 4.99491 3.2789 -3.11917 7.8239 1.17284C7.8839 1.22927 7.9429 1.28775 7.9999 1.34829C8.05632 1.28781 8.11503 1.22962 8.1759 1.17386C12.7199 -3.12122 23.3329 4.99388 7.9999 15.3909Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_211">
+                                                                  <rect width="16" height="15.4319" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>  
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 custom-col mb-30">
+                                                <div class="box17">
+                                                  <div class="group">
+                                                    <div class="overlap">
+                                                      <div class="shopping-cart">
+                                                        <div class="overlap-group">
+                                                          <div class="foto">
+                                                            <div class="div">
+                                                              <div class="rectangle"></div>
+                                                              <img class="img" src="assets/img/shop/1.png">
+                                                              <div class="rectangle-2"></div>
+                                                              <div class="text-wrapper">40%</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="qiymt">
+                                                            <p class="element">
+                                                              <span class="span">533.70₼</span>
+                                                              <span class="text-wrapper-2">&nbsp;&nbsp;</span>
+                                                              <span class="text-wrapper-3">849.50₼</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="aqlama"><p class="p">Günəşdən qoruyucu krem Tony Moly İntense Care</p></div>
+                                                          <div class="taksit">
+                                                            <div class="overlap-2">
+                                                              <div class="overlap-group-2">
+                                                                <div class="rectangle-3"></div>
+                                                                <div class="text-wrapper-4">12 ay</div>
+                                                              </div>
+                                                              <div class="text-wrapper-5">18 ay</div>
+                                                              <div class="text-wrapper-6">6 ay</div>
+                                                              <div class="text-wrapper-7">295.83 AZN</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="satc">
+                                                            <p class="sat-c-tony-moly">
+                                                              <span class="text-wrapper-8">Satıcı:</span> <span class="text-wrapper-9"> Tony Moly Azerbaijan</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="rezerv-et">
+                                                            <div class="div-wrapper">
+                                                            <svg style="transform: translate(30px,2px);" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                              <path d="M3.375 16.3125C2.92745 16.3125 2.49822 16.1347 2.18176 15.8182C1.86529 15.5018 1.6875 15.0726 1.6875 14.625V3.375C1.6875 2.92745 1.86529 2.49822 2.18176 2.18176C2.49822 1.86529 2.92745 1.6875 3.375 1.6875H12.375C12.5242 1.6875 12.6673 1.74676 12.7727 1.85225C12.8782 1.95774 12.9375 2.10082 12.9375 2.25C12.9375 2.39918 12.8782 2.54226 12.7727 2.64775C12.6673 2.75324 12.5242 2.8125 12.375 2.8125H3.375C3.22582 2.8125 3.08274 2.87176 2.97725 2.97725C2.87176 3.08274 2.8125 3.22582 2.8125 3.375V14.625C2.8125 14.7742 2.87176 14.9173 2.97725 15.0227C3.08274 15.1282 3.22582 15.1875 3.375 15.1875H14.625C14.7742 15.1875 14.9173 15.1282 15.0227 15.0227C15.1282 14.9173 15.1875 14.7742 15.1875 14.625V9C15.1875 8.85082 15.2468 8.70774 15.3523 8.60225C15.4577 8.49676 15.6008 8.4375 15.75 8.4375C15.8992 8.4375 16.0423 8.49676 16.1477 8.60225C16.2532 8.70774 16.3125 8.85082 16.3125 9V14.625C16.3125 15.0726 16.1347 15.5018 15.8182 15.8182C15.5018 16.1347 15.0726 16.3125 14.625 16.3125H3.375Z" fill="#212751"></path>
+                                                              <path d="M9.39823 11.6482L17.2732 3.77323C17.3255 3.72093 17.367 3.65884 17.3953 3.59051C17.4236 3.52218 17.4382 3.44894 17.4382 3.37498C17.4382 3.30102 17.4236 3.22778 17.3953 3.15945C17.367 3.09111 17.3255 3.02903 17.2732 2.97673C17.2209 2.92443 17.1588 2.88294 17.0905 2.85464C17.0222 2.82634 16.9489 2.81177 16.875 2.81177C16.801 2.81177 16.7278 2.82634 16.6594 2.85464C16.5911 2.88294 16.529 2.92443 16.4767 2.97673L8.99998 10.4546L6.02323 7.47673C5.97093 7.42443 5.90884 7.38294 5.84051 7.35464C5.77218 7.32633 5.69894 7.31177 5.62498 7.31177C5.55102 7.31177 5.47778 7.32633 5.40945 7.35464C5.34111 7.38294 5.27903 7.42443 5.22673 7.47673C5.17443 7.52903 5.13294 7.59111 5.10464 7.65945C5.07634 7.72778 5.06177 7.80102 5.06177 7.87498C5.06177 7.94894 5.07634 8.02218 5.10464 8.09051C5.13294 8.15884 5.17443 8.22093 5.22673 8.27323L8.60173 11.6482C8.65398 11.7006 8.71605 11.7422 8.78439 11.7705C8.85273 11.7989 8.92599 11.8135 8.99998 11.8135C9.07397 11.8135 9.14723 11.7989 9.21557 11.7705C9.2839 11.7422 9.34598 11.7006 9.39823 11.6482Z" fill="#212751"></path>
+                                                            </svg>
+                                                            <div class="text-wrapper-10">
+                                                            Rezerv et
+                                                            </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="camera-video-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none">
+                                                              <g clip-path="url(#clip0_1512_207)">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.12997C0 1.59706 0.210714 1.08596 0.585786 0.709135C0.960859 0.332306 1.46957 0.120605 2 0.120605H9.5C9.98509 0.120548 10.4537 0.297623 10.8185 0.618856C11.1833 0.940089 11.4195 1.38358 11.483 1.86675L14.593 0.478273C14.7452 0.410127 14.912 0.381284 15.0781 0.394367C15.2443 0.40745 15.4045 0.462043 15.5443 0.553185C15.6841 0.644326 15.7991 0.769125 15.8786 0.916238C15.9582 1.06335 15.9999 1.22811 16 1.39555V8.8925C15.9999 9.0598 15.9581 9.22442 15.8786 9.37141C15.7991 9.51841 15.6843 9.64312 15.5446 9.73424C15.4049 9.82535 15.2449 9.87998 15.0788 9.89318C14.9128 9.90637 14.7462 9.8777 14.594 9.80977L11.483 8.4213C11.4195 8.90446 11.1833 9.34796 10.8185 9.66919C10.4537 9.99042 9.98509 10.1675 9.5 10.1674H2C1.46957 10.1674 0.960859 9.95574 0.585786 9.57891C0.210714 9.20208 0 8.69099 0 8.15807V2.12997ZM11.5 7.32921L15 8.8925V1.39555L11.5 2.95884V7.32921ZM2 1.12529C1.73478 1.12529 1.48043 1.23114 1.29289 1.41955C1.10536 1.60797 1 1.86351 1 2.12997V8.15807C1 8.42453 1.10536 8.68008 1.29289 8.86849C1.48043 9.05691 1.73478 9.16276 2 9.16276H9.5C9.76522 9.16276 10.0196 9.05691 10.2071 8.86849C10.3946 8.68008 10.5 8.42453 10.5 8.15807V2.12997C10.5 1.86351 10.3946 1.60797 10.2071 1.41955C10.0196 1.23114 9.76522 1.12529 9.5 1.12529H2Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_207">
+                                                                  <rect width="16" height="10.288" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                      <div class="heart-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                              <g clip-path="url(#clip0_1512_211)">
+                                                                <path d="M7.9999 2.81966L7.2829 2.06346C5.5999 0.288373 2.5139 0.90093 1.3999 3.13261C0.876895 4.18227 0.758895 5.69776 1.7139 7.63188C2.6339 9.49418 4.5479 11.7248 7.9999 14.1545C11.4519 11.7248 13.3649 9.49418 14.2859 7.63188C15.2409 5.69673 15.1239 4.18227 14.5999 3.13261C13.4859 0.90093 10.3999 0.287347 8.7169 2.06243L7.9999 2.81966ZM7.9999 15.3909C-7.33311 4.99491 3.2789 -3.11917 7.8239 1.17284C7.8839 1.22927 7.9429 1.28775 7.9999 1.34829C8.05632 1.28781 8.11503 1.22962 8.1759 1.17386C12.7199 -3.12122 23.3329 4.99388 7.9999 15.3909Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_211">
+                                                                  <rect width="16" height="15.4319" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 custom-col mb-30">
+                                                <div class="box17">
+                                                  <div class="group">
+                                                    <div class="overlap">
+                                                      <div class="shopping-cart">
+                                                        <div class="overlap-group">
+                                                          <div class="foto">
+                                                            <div class="div">
+                                                              <div class="rectangle"></div>
+                                                              <img class="img" src="assets/img/shop/1.png">
+                                                              <div class="rectangle-2"></div>
+                                                              <div class="text-wrapper">40%</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="qiymt">
+                                                            <p class="element">
+                                                              <span class="span">533.70₼</span>
+                                                              <span class="text-wrapper-2">&nbsp;&nbsp;</span>
+                                                              <span class="text-wrapper-3">849.50₼</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="aqlama"><p class="p">Günəşdən qoruyucu krem Tony Moly İntense Care</p></div>
+                                                          <div class="taksit">
+                                                            <div class="overlap-2">
+                                                              <div class="overlap-group-2">
+                                                                <div class="rectangle-3"></div>
+                                                                <div class="text-wrapper-4">12 ay</div>
+                                                              </div>
+                                                              <div class="text-wrapper-5">18 ay</div>
+                                                              <div class="text-wrapper-6">6 ay</div>
+                                                              <div class="text-wrapper-7">295.83 AZN</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="satc">
+                                                            <p class="sat-c-tony-moly">
+                                                              <span class="text-wrapper-8">Satıcı:</span> <span class="text-wrapper-9"> Tony Moly Azerbaijan</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="rezerv-et">
+                                                            <div class="div-wrapper">
+                                                            <svg style="transform: translate(30px,2px);" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                              <path d="M3.375 16.3125C2.92745 16.3125 2.49822 16.1347 2.18176 15.8182C1.86529 15.5018 1.6875 15.0726 1.6875 14.625V3.375C1.6875 2.92745 1.86529 2.49822 2.18176 2.18176C2.49822 1.86529 2.92745 1.6875 3.375 1.6875H12.375C12.5242 1.6875 12.6673 1.74676 12.7727 1.85225C12.8782 1.95774 12.9375 2.10082 12.9375 2.25C12.9375 2.39918 12.8782 2.54226 12.7727 2.64775C12.6673 2.75324 12.5242 2.8125 12.375 2.8125H3.375C3.22582 2.8125 3.08274 2.87176 2.97725 2.97725C2.87176 3.08274 2.8125 3.22582 2.8125 3.375V14.625C2.8125 14.7742 2.87176 14.9173 2.97725 15.0227C3.08274 15.1282 3.22582 15.1875 3.375 15.1875H14.625C14.7742 15.1875 14.9173 15.1282 15.0227 15.0227C15.1282 14.9173 15.1875 14.7742 15.1875 14.625V9C15.1875 8.85082 15.2468 8.70774 15.3523 8.60225C15.4577 8.49676 15.6008 8.4375 15.75 8.4375C15.8992 8.4375 16.0423 8.49676 16.1477 8.60225C16.2532 8.70774 16.3125 8.85082 16.3125 9V14.625C16.3125 15.0726 16.1347 15.5018 15.8182 15.8182C15.5018 16.1347 15.0726 16.3125 14.625 16.3125H3.375Z" fill="#212751"></path>
+                                                              <path d="M9.39823 11.6482L17.2732 3.77323C17.3255 3.72093 17.367 3.65884 17.3953 3.59051C17.4236 3.52218 17.4382 3.44894 17.4382 3.37498C17.4382 3.30102 17.4236 3.22778 17.3953 3.15945C17.367 3.09111 17.3255 3.02903 17.2732 2.97673C17.2209 2.92443 17.1588 2.88294 17.0905 2.85464C17.0222 2.82634 16.9489 2.81177 16.875 2.81177C16.801 2.81177 16.7278 2.82634 16.6594 2.85464C16.5911 2.88294 16.529 2.92443 16.4767 2.97673L8.99998 10.4546L6.02323 7.47673C5.97093 7.42443 5.90884 7.38294 5.84051 7.35464C5.77218 7.32633 5.69894 7.31177 5.62498 7.31177C5.55102 7.31177 5.47778 7.32633 5.40945 7.35464C5.34111 7.38294 5.27903 7.42443 5.22673 7.47673C5.17443 7.52903 5.13294 7.59111 5.10464 7.65945C5.07634 7.72778 5.06177 7.80102 5.06177 7.87498C5.06177 7.94894 5.07634 8.02218 5.10464 8.09051C5.13294 8.15884 5.17443 8.22093 5.22673 8.27323L8.60173 11.6482C8.65398 11.7006 8.71605 11.7422 8.78439 11.7705C8.85273 11.7989 8.92599 11.8135 8.99998 11.8135C9.07397 11.8135 9.14723 11.7989 9.21557 11.7705C9.2839 11.7422 9.34598 11.7006 9.39823 11.6482Z" fill="#212751"></path>
+                                                            </svg>
+                                                            <div class="text-wrapper-10">
+                                                            Rezerv et
+                                                            </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="camera-video-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none">
+                                                              <g clip-path="url(#clip0_1512_207)">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.12997C0 1.59706 0.210714 1.08596 0.585786 0.709135C0.960859 0.332306 1.46957 0.120605 2 0.120605H9.5C9.98509 0.120548 10.4537 0.297623 10.8185 0.618856C11.1833 0.940089 11.4195 1.38358 11.483 1.86675L14.593 0.478273C14.7452 0.410127 14.912 0.381284 15.0781 0.394367C15.2443 0.40745 15.4045 0.462043 15.5443 0.553185C15.6841 0.644326 15.7991 0.769125 15.8786 0.916238C15.9582 1.06335 15.9999 1.22811 16 1.39555V8.8925C15.9999 9.0598 15.9581 9.22442 15.8786 9.37141C15.7991 9.51841 15.6843 9.64312 15.5446 9.73424C15.4049 9.82535 15.2449 9.87998 15.0788 9.89318C14.9128 9.90637 14.7462 9.8777 14.594 9.80977L11.483 8.4213C11.4195 8.90446 11.1833 9.34796 10.8185 9.66919C10.4537 9.99042 9.98509 10.1675 9.5 10.1674H2C1.46957 10.1674 0.960859 9.95574 0.585786 9.57891C0.210714 9.20208 0 8.69099 0 8.15807V2.12997ZM11.5 7.32921L15 8.8925V1.39555L11.5 2.95884V7.32921ZM2 1.12529C1.73478 1.12529 1.48043 1.23114 1.29289 1.41955C1.10536 1.60797 1 1.86351 1 2.12997V8.15807C1 8.42453 1.10536 8.68008 1.29289 8.86849C1.48043 9.05691 1.73478 9.16276 2 9.16276H9.5C9.76522 9.16276 10.0196 9.05691 10.2071 8.86849C10.3946 8.68008 10.5 8.42453 10.5 8.15807V2.12997C10.5 1.86351 10.3946 1.60797 10.2071 1.41955C10.0196 1.23114 9.76522 1.12529 9.5 1.12529H2Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_207">
+                                                                  <rect width="16" height="10.288" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                      <div class="heart-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                              <g clip-path="url(#clip0_1512_211)">
+                                                                <path d="M7.9999 2.81966L7.2829 2.06346C5.5999 0.288373 2.5139 0.90093 1.3999 3.13261C0.876895 4.18227 0.758895 5.69776 1.7139 7.63188C2.6339 9.49418 4.5479 11.7248 7.9999 14.1545C11.4519 11.7248 13.3649 9.49418 14.2859 7.63188C15.2409 5.69673 15.1239 4.18227 14.5999 3.13261C13.4859 0.90093 10.3999 0.287347 8.7169 2.06243L7.9999 2.81966ZM7.9999 15.3909C-7.33311 4.99491 3.2789 -3.11917 7.8239 1.17284C7.8839 1.22927 7.9429 1.28775 7.9999 1.34829C8.05632 1.28781 8.11503 1.22962 8.1759 1.17386C12.7199 -3.12122 23.3329 4.99388 7.9999 15.3909Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_211">
+                                                                  <rect width="16" height="15.4319" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 custom-col mb-30">
+                                               <div class="box17">
+                                                  <div class="group">
+                                                    <div class="overlap">
+                                                      <div class="shopping-cart">
+                                                        <div class="overlap-group">
+                                                          <div class="foto">
+                                                            <div class="div">
+                                                              <div class="rectangle"></div>
+                                                              <img class="img" src="assets/img/shop/1.png">
+                                                              <div class="rectangle-2"></div>
+                                                              <div class="text-wrapper">40%</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="qiymt">
+                                                            <p class="element">
+                                                              <span class="span">533.70₼</span>
+                                                              <span class="text-wrapper-2">&nbsp;&nbsp;</span>
+                                                              <span class="text-wrapper-3">849.50₼</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="aqlama"><p class="p">Günəşdən qoruyucu krem Tony Moly İntense Care</p></div>
+                                                          <div class="taksit">
+                                                            <div class="overlap-2">
+                                                              <div class="overlap-group-2">
+                                                                <div class="rectangle-3"></div>
+                                                                <div class="text-wrapper-4">12 ay</div>
+                                                              </div>
+                                                              <div class="text-wrapper-5">18 ay</div>
+                                                              <div class="text-wrapper-6">6 ay</div>
+                                                              <div class="text-wrapper-7">295.83 AZN</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="satc">
+                                                            <p class="sat-c-tony-moly">
+                                                              <span class="text-wrapper-8">Satıcı:</span> <span class="text-wrapper-9"> Tony Moly Azerbaijan</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="rezerv-et">
+                                                            <div class="div-wrapper">
+                                                            <svg style="transform: translate(30px,2px);" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                              <path d="M3.375 16.3125C2.92745 16.3125 2.49822 16.1347 2.18176 15.8182C1.86529 15.5018 1.6875 15.0726 1.6875 14.625V3.375C1.6875 2.92745 1.86529 2.49822 2.18176 2.18176C2.49822 1.86529 2.92745 1.6875 3.375 1.6875H12.375C12.5242 1.6875 12.6673 1.74676 12.7727 1.85225C12.8782 1.95774 12.9375 2.10082 12.9375 2.25C12.9375 2.39918 12.8782 2.54226 12.7727 2.64775C12.6673 2.75324 12.5242 2.8125 12.375 2.8125H3.375C3.22582 2.8125 3.08274 2.87176 2.97725 2.97725C2.87176 3.08274 2.8125 3.22582 2.8125 3.375V14.625C2.8125 14.7742 2.87176 14.9173 2.97725 15.0227C3.08274 15.1282 3.22582 15.1875 3.375 15.1875H14.625C14.7742 15.1875 14.9173 15.1282 15.0227 15.0227C15.1282 14.9173 15.1875 14.7742 15.1875 14.625V9C15.1875 8.85082 15.2468 8.70774 15.3523 8.60225C15.4577 8.49676 15.6008 8.4375 15.75 8.4375C15.8992 8.4375 16.0423 8.49676 16.1477 8.60225C16.2532 8.70774 16.3125 8.85082 16.3125 9V14.625C16.3125 15.0726 16.1347 15.5018 15.8182 15.8182C15.5018 16.1347 15.0726 16.3125 14.625 16.3125H3.375Z" fill="#212751"></path>
+                                                              <path d="M9.39823 11.6482L17.2732 3.77323C17.3255 3.72093 17.367 3.65884 17.3953 3.59051C17.4236 3.52218 17.4382 3.44894 17.4382 3.37498C17.4382 3.30102 17.4236 3.22778 17.3953 3.15945C17.367 3.09111 17.3255 3.02903 17.2732 2.97673C17.2209 2.92443 17.1588 2.88294 17.0905 2.85464C17.0222 2.82634 16.9489 2.81177 16.875 2.81177C16.801 2.81177 16.7278 2.82634 16.6594 2.85464C16.5911 2.88294 16.529 2.92443 16.4767 2.97673L8.99998 10.4546L6.02323 7.47673C5.97093 7.42443 5.90884 7.38294 5.84051 7.35464C5.77218 7.32633 5.69894 7.31177 5.62498 7.31177C5.55102 7.31177 5.47778 7.32633 5.40945 7.35464C5.34111 7.38294 5.27903 7.42443 5.22673 7.47673C5.17443 7.52903 5.13294 7.59111 5.10464 7.65945C5.07634 7.72778 5.06177 7.80102 5.06177 7.87498C5.06177 7.94894 5.07634 8.02218 5.10464 8.09051C5.13294 8.15884 5.17443 8.22093 5.22673 8.27323L8.60173 11.6482C8.65398 11.7006 8.71605 11.7422 8.78439 11.7705C8.85273 11.7989 8.92599 11.8135 8.99998 11.8135C9.07397 11.8135 9.14723 11.7989 9.21557 11.7705C9.2839 11.7422 9.34598 11.7006 9.39823 11.6482Z" fill="#212751"></path>
+                                                            </svg>
+                                                            <div class="text-wrapper-10">
+                                                            Rezerv et
+                                                            </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="camera-video-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none">
+                                                              <g clip-path="url(#clip0_1512_207)">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.12997C0 1.59706 0.210714 1.08596 0.585786 0.709135C0.960859 0.332306 1.46957 0.120605 2 0.120605H9.5C9.98509 0.120548 10.4537 0.297623 10.8185 0.618856C11.1833 0.940089 11.4195 1.38358 11.483 1.86675L14.593 0.478273C14.7452 0.410127 14.912 0.381284 15.0781 0.394367C15.2443 0.40745 15.4045 0.462043 15.5443 0.553185C15.6841 0.644326 15.7991 0.769125 15.8786 0.916238C15.9582 1.06335 15.9999 1.22811 16 1.39555V8.8925C15.9999 9.0598 15.9581 9.22442 15.8786 9.37141C15.7991 9.51841 15.6843 9.64312 15.5446 9.73424C15.4049 9.82535 15.2449 9.87998 15.0788 9.89318C14.9128 9.90637 14.7462 9.8777 14.594 9.80977L11.483 8.4213C11.4195 8.90446 11.1833 9.34796 10.8185 9.66919C10.4537 9.99042 9.98509 10.1675 9.5 10.1674H2C1.46957 10.1674 0.960859 9.95574 0.585786 9.57891C0.210714 9.20208 0 8.69099 0 8.15807V2.12997ZM11.5 7.32921L15 8.8925V1.39555L11.5 2.95884V7.32921ZM2 1.12529C1.73478 1.12529 1.48043 1.23114 1.29289 1.41955C1.10536 1.60797 1 1.86351 1 2.12997V8.15807C1 8.42453 1.10536 8.68008 1.29289 8.86849C1.48043 9.05691 1.73478 9.16276 2 9.16276H9.5C9.76522 9.16276 10.0196 9.05691 10.2071 8.86849C10.3946 8.68008 10.5 8.42453 10.5 8.15807V2.12997C10.5 1.86351 10.3946 1.60797 10.2071 1.41955C10.0196 1.23114 9.76522 1.12529 9.5 1.12529H2Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_207">
+                                                                  <rect width="16" height="10.288" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                      <div class="heart-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                              <g clip-path="url(#clip0_1512_211)">
+                                                                <path d="M7.9999 2.81966L7.2829 2.06346C5.5999 0.288373 2.5139 0.90093 1.3999 3.13261C0.876895 4.18227 0.758895 5.69776 1.7139 7.63188C2.6339 9.49418 4.5479 11.7248 7.9999 14.1545C11.4519 11.7248 13.3649 9.49418 14.2859 7.63188C15.2409 5.69673 15.1239 4.18227 14.5999 3.13261C13.4859 0.90093 10.3999 0.287347 8.7169 2.06243L7.9999 2.81966ZM7.9999 15.3909C-7.33311 4.99491 3.2789 -3.11917 7.8239 1.17284C7.8839 1.22927 7.9429 1.28775 7.9999 1.34829C8.05632 1.28781 8.11503 1.22962 8.1759 1.17386C12.7199 -3.12122 23.3329 4.99388 7.9999 15.3909Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_211">
+                                                                  <rect width="16" height="15.4319" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 custom-col mb-30">
+                                                <div class="box17">
+                                                  <div class="group">
+                                                    <div class="overlap">
+                                                      <div class="shopping-cart">
+                                                        <div class="overlap-group">
+                                                          <div class="foto">
+                                                            <div class="div">
+                                                              <div class="rectangle"></div>
+                                                              <img class="img" src="assets/img/shop/1.png">
+                                                              <div class="rectangle-2"></div>
+                                                              <div class="text-wrapper">40%</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="qiymt">
+                                                            <p class="element">
+                                                              <span class="span">533.70₼</span>
+                                                              <span class="text-wrapper-2">&nbsp;&nbsp;</span>
+                                                              <span class="text-wrapper-3">849.50₼</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="aqlama"><p class="p">Günəşdən qoruyucu krem Tony Moly İntense Care</p></div>
+                                                          <div class="taksit">
+                                                            <div class="overlap-2">
+                                                              <div class="overlap-group-2">
+                                                                <div class="rectangle-3"></div>
+                                                                <div class="text-wrapper-4">12 ay</div>
+                                                              </div>
+                                                              <div class="text-wrapper-5">18 ay</div>
+                                                              <div class="text-wrapper-6">6 ay</div>
+                                                              <div class="text-wrapper-7">295.83 AZN</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="satc">
+                                                            <p class="sat-c-tony-moly">
+                                                              <span class="text-wrapper-8">Satıcı:</span> <span class="text-wrapper-9"> Tony Moly Azerbaijan</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="rezerv-et">
+                                                            <div class="div-wrapper">
+                                                            <svg style="transform: translate(30px,2px);" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                              <path d="M3.375 16.3125C2.92745 16.3125 2.49822 16.1347 2.18176 15.8182C1.86529 15.5018 1.6875 15.0726 1.6875 14.625V3.375C1.6875 2.92745 1.86529 2.49822 2.18176 2.18176C2.49822 1.86529 2.92745 1.6875 3.375 1.6875H12.375C12.5242 1.6875 12.6673 1.74676 12.7727 1.85225C12.8782 1.95774 12.9375 2.10082 12.9375 2.25C12.9375 2.39918 12.8782 2.54226 12.7727 2.64775C12.6673 2.75324 12.5242 2.8125 12.375 2.8125H3.375C3.22582 2.8125 3.08274 2.87176 2.97725 2.97725C2.87176 3.08274 2.8125 3.22582 2.8125 3.375V14.625C2.8125 14.7742 2.87176 14.9173 2.97725 15.0227C3.08274 15.1282 3.22582 15.1875 3.375 15.1875H14.625C14.7742 15.1875 14.9173 15.1282 15.0227 15.0227C15.1282 14.9173 15.1875 14.7742 15.1875 14.625V9C15.1875 8.85082 15.2468 8.70774 15.3523 8.60225C15.4577 8.49676 15.6008 8.4375 15.75 8.4375C15.8992 8.4375 16.0423 8.49676 16.1477 8.60225C16.2532 8.70774 16.3125 8.85082 16.3125 9V14.625C16.3125 15.0726 16.1347 15.5018 15.8182 15.8182C15.5018 16.1347 15.0726 16.3125 14.625 16.3125H3.375Z" fill="#212751"></path>
+                                                              <path d="M9.39823 11.6482L17.2732 3.77323C17.3255 3.72093 17.367 3.65884 17.3953 3.59051C17.4236 3.52218 17.4382 3.44894 17.4382 3.37498C17.4382 3.30102 17.4236 3.22778 17.3953 3.15945C17.367 3.09111 17.3255 3.02903 17.2732 2.97673C17.2209 2.92443 17.1588 2.88294 17.0905 2.85464C17.0222 2.82634 16.9489 2.81177 16.875 2.81177C16.801 2.81177 16.7278 2.82634 16.6594 2.85464C16.5911 2.88294 16.529 2.92443 16.4767 2.97673L8.99998 10.4546L6.02323 7.47673C5.97093 7.42443 5.90884 7.38294 5.84051 7.35464C5.77218 7.32633 5.69894 7.31177 5.62498 7.31177C5.55102 7.31177 5.47778 7.32633 5.40945 7.35464C5.34111 7.38294 5.27903 7.42443 5.22673 7.47673C5.17443 7.52903 5.13294 7.59111 5.10464 7.65945C5.07634 7.72778 5.06177 7.80102 5.06177 7.87498C5.06177 7.94894 5.07634 8.02218 5.10464 8.09051C5.13294 8.15884 5.17443 8.22093 5.22673 8.27323L8.60173 11.6482C8.65398 11.7006 8.71605 11.7422 8.78439 11.7705C8.85273 11.7989 8.92599 11.8135 8.99998 11.8135C9.07397 11.8135 9.14723 11.7989 9.21557 11.7705C9.2839 11.7422 9.34598 11.7006 9.39823 11.6482Z" fill="#212751"></path>
+                                                            </svg>
+                                                            <div class="text-wrapper-10">
+                                                            Rezerv et
+                                                            </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="camera-video-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none">
+                                                              <g clip-path="url(#clip0_1512_207)">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.12997C0 1.59706 0.210714 1.08596 0.585786 0.709135C0.960859 0.332306 1.46957 0.120605 2 0.120605H9.5C9.98509 0.120548 10.4537 0.297623 10.8185 0.618856C11.1833 0.940089 11.4195 1.38358 11.483 1.86675L14.593 0.478273C14.7452 0.410127 14.912 0.381284 15.0781 0.394367C15.2443 0.40745 15.4045 0.462043 15.5443 0.553185C15.6841 0.644326 15.7991 0.769125 15.8786 0.916238C15.9582 1.06335 15.9999 1.22811 16 1.39555V8.8925C15.9999 9.0598 15.9581 9.22442 15.8786 9.37141C15.7991 9.51841 15.6843 9.64312 15.5446 9.73424C15.4049 9.82535 15.2449 9.87998 15.0788 9.89318C14.9128 9.90637 14.7462 9.8777 14.594 9.80977L11.483 8.4213C11.4195 8.90446 11.1833 9.34796 10.8185 9.66919C10.4537 9.99042 9.98509 10.1675 9.5 10.1674H2C1.46957 10.1674 0.960859 9.95574 0.585786 9.57891C0.210714 9.20208 0 8.69099 0 8.15807V2.12997ZM11.5 7.32921L15 8.8925V1.39555L11.5 2.95884V7.32921ZM2 1.12529C1.73478 1.12529 1.48043 1.23114 1.29289 1.41955C1.10536 1.60797 1 1.86351 1 2.12997V8.15807C1 8.42453 1.10536 8.68008 1.29289 8.86849C1.48043 9.05691 1.73478 9.16276 2 9.16276H9.5C9.76522 9.16276 10.0196 9.05691 10.2071 8.86849C10.3946 8.68008 10.5 8.42453 10.5 8.15807V2.12997C10.5 1.86351 10.3946 1.60797 10.2071 1.41955C10.0196 1.23114 9.76522 1.12529 9.5 1.12529H2Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_207">
+                                                                  <rect width="16" height="10.288" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                      <div class="heart-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                              <g clip-path="url(#clip0_1512_211)">
+                                                                <path d="M7.9999 2.81966L7.2829 2.06346C5.5999 0.288373 2.5139 0.90093 1.3999 3.13261C0.876895 4.18227 0.758895 5.69776 1.7139 7.63188C2.6339 9.49418 4.5479 11.7248 7.9999 14.1545C11.4519 11.7248 13.3649 9.49418 14.2859 7.63188C15.2409 5.69673 15.1239 4.18227 14.5999 3.13261C13.4859 0.90093 10.3999 0.287347 8.7169 2.06243L7.9999 2.81966ZM7.9999 15.3909C-7.33311 4.99491 3.2789 -3.11917 7.8239 1.17284C7.8839 1.22927 7.9429 1.28775 7.9999 1.34829C8.05632 1.28781 8.11503 1.22962 8.1759 1.17386C12.7199 -3.12122 23.3329 4.99388 7.9999 15.3909Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_211">
+                                                                  <rect width="16" height="15.4319" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 custom-col mb-30">
+                                                <div class="box17">
+                                                  <div class="group">
+                                                    <div class="overlap">
+                                                      <div class="shopping-cart">
+                                                        <div class="overlap-group">
+                                                          <div class="foto">
+                                                            <div class="div">
+                                                              <div class="rectangle"></div>
+                                                              <img class="img" src="assets/img/shop/1.png">
+                                                              <div class="rectangle-2"></div>
+                                                              <div class="text-wrapper">40%</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="qiymt">
+                                                            <p class="element">
+                                                              <span class="span">533.70₼</span>
+                                                              <span class="text-wrapper-2">&nbsp;&nbsp;</span>
+                                                              <span class="text-wrapper-3">849.50₼</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="aqlama"><p class="p">Günəşdən qoruyucu krem Tony Moly İntense Care</p></div>
+                                                          <div class="taksit">
+                                                            <div class="overlap-2">
+                                                              <div class="overlap-group-2">
+                                                                <div class="rectangle-3"></div>
+                                                                <div class="text-wrapper-4">12 ay</div>
+                                                              </div>
+                                                              <div class="text-wrapper-5">18 ay</div>
+                                                              <div class="text-wrapper-6">6 ay</div>
+                                                              <div class="text-wrapper-7">295.83 AZN</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="satc">
+                                                            <p class="sat-c-tony-moly">
+                                                              <span class="text-wrapper-8">Satıcı:</span> <span class="text-wrapper-9"> Tony Moly Azerbaijan</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="rezerv-et">
+                                                            <div class="div-wrapper">
+                                                            <svg style="transform: translate(30px,2px);" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                              <path d="M3.375 16.3125C2.92745 16.3125 2.49822 16.1347 2.18176 15.8182C1.86529 15.5018 1.6875 15.0726 1.6875 14.625V3.375C1.6875 2.92745 1.86529 2.49822 2.18176 2.18176C2.49822 1.86529 2.92745 1.6875 3.375 1.6875H12.375C12.5242 1.6875 12.6673 1.74676 12.7727 1.85225C12.8782 1.95774 12.9375 2.10082 12.9375 2.25C12.9375 2.39918 12.8782 2.54226 12.7727 2.64775C12.6673 2.75324 12.5242 2.8125 12.375 2.8125H3.375C3.22582 2.8125 3.08274 2.87176 2.97725 2.97725C2.87176 3.08274 2.8125 3.22582 2.8125 3.375V14.625C2.8125 14.7742 2.87176 14.9173 2.97725 15.0227C3.08274 15.1282 3.22582 15.1875 3.375 15.1875H14.625C14.7742 15.1875 14.9173 15.1282 15.0227 15.0227C15.1282 14.9173 15.1875 14.7742 15.1875 14.625V9C15.1875 8.85082 15.2468 8.70774 15.3523 8.60225C15.4577 8.49676 15.6008 8.4375 15.75 8.4375C15.8992 8.4375 16.0423 8.49676 16.1477 8.60225C16.2532 8.70774 16.3125 8.85082 16.3125 9V14.625C16.3125 15.0726 16.1347 15.5018 15.8182 15.8182C15.5018 16.1347 15.0726 16.3125 14.625 16.3125H3.375Z" fill="#212751"></path>
+                                                              <path d="M9.39823 11.6482L17.2732 3.77323C17.3255 3.72093 17.367 3.65884 17.3953 3.59051C17.4236 3.52218 17.4382 3.44894 17.4382 3.37498C17.4382 3.30102 17.4236 3.22778 17.3953 3.15945C17.367 3.09111 17.3255 3.02903 17.2732 2.97673C17.2209 2.92443 17.1588 2.88294 17.0905 2.85464C17.0222 2.82634 16.9489 2.81177 16.875 2.81177C16.801 2.81177 16.7278 2.82634 16.6594 2.85464C16.5911 2.88294 16.529 2.92443 16.4767 2.97673L8.99998 10.4546L6.02323 7.47673C5.97093 7.42443 5.90884 7.38294 5.84051 7.35464C5.77218 7.32633 5.69894 7.31177 5.62498 7.31177C5.55102 7.31177 5.47778 7.32633 5.40945 7.35464C5.34111 7.38294 5.27903 7.42443 5.22673 7.47673C5.17443 7.52903 5.13294 7.59111 5.10464 7.65945C5.07634 7.72778 5.06177 7.80102 5.06177 7.87498C5.06177 7.94894 5.07634 8.02218 5.10464 8.09051C5.13294 8.15884 5.17443 8.22093 5.22673 8.27323L8.60173 11.6482C8.65398 11.7006 8.71605 11.7422 8.78439 11.7705C8.85273 11.7989 8.92599 11.8135 8.99998 11.8135C9.07397 11.8135 9.14723 11.7989 9.21557 11.7705C9.2839 11.7422 9.34598 11.7006 9.39823 11.6482Z" fill="#212751"></path>
+                                                            </svg>
+                                                            <div class="text-wrapper-10">
+                                                            Rezerv et
+                                                            </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="camera-video-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none">
+                                                              <g clip-path="url(#clip0_1512_207)">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.12997C0 1.59706 0.210714 1.08596 0.585786 0.709135C0.960859 0.332306 1.46957 0.120605 2 0.120605H9.5C9.98509 0.120548 10.4537 0.297623 10.8185 0.618856C11.1833 0.940089 11.4195 1.38358 11.483 1.86675L14.593 0.478273C14.7452 0.410127 14.912 0.381284 15.0781 0.394367C15.2443 0.40745 15.4045 0.462043 15.5443 0.553185C15.6841 0.644326 15.7991 0.769125 15.8786 0.916238C15.9582 1.06335 15.9999 1.22811 16 1.39555V8.8925C15.9999 9.0598 15.9581 9.22442 15.8786 9.37141C15.7991 9.51841 15.6843 9.64312 15.5446 9.73424C15.4049 9.82535 15.2449 9.87998 15.0788 9.89318C14.9128 9.90637 14.7462 9.8777 14.594 9.80977L11.483 8.4213C11.4195 8.90446 11.1833 9.34796 10.8185 9.66919C10.4537 9.99042 9.98509 10.1675 9.5 10.1674H2C1.46957 10.1674 0.960859 9.95574 0.585786 9.57891C0.210714 9.20208 0 8.69099 0 8.15807V2.12997ZM11.5 7.32921L15 8.8925V1.39555L11.5 2.95884V7.32921ZM2 1.12529C1.73478 1.12529 1.48043 1.23114 1.29289 1.41955C1.10536 1.60797 1 1.86351 1 2.12997V8.15807C1 8.42453 1.10536 8.68008 1.29289 8.86849C1.48043 9.05691 1.73478 9.16276 2 9.16276H9.5C9.76522 9.16276 10.0196 9.05691 10.2071 8.86849C10.3946 8.68008 10.5 8.42453 10.5 8.15807V2.12997C10.5 1.86351 10.3946 1.60797 10.2071 1.41955C10.0196 1.23114 9.76522 1.12529 9.5 1.12529H2Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_207">
+                                                                  <rect width="16" height="10.288" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                      <div class="heart-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                              <g clip-path="url(#clip0_1512_211)">
+                                                                <path d="M7.9999 2.81966L7.2829 2.06346C5.5999 0.288373 2.5139 0.90093 1.3999 3.13261C0.876895 4.18227 0.758895 5.69776 1.7139 7.63188C2.6339 9.49418 4.5479 11.7248 7.9999 14.1545C11.4519 11.7248 13.3649 9.49418 14.2859 7.63188C15.2409 5.69673 15.1239 4.18227 14.5999 3.13261C13.4859 0.90093 10.3999 0.287347 8.7169 2.06243L7.9999 2.81966ZM7.9999 15.3909C-7.33311 4.99491 3.2789 -3.11917 7.8239 1.17284C7.8839 1.22927 7.9429 1.28775 7.9999 1.34829C8.05632 1.28781 8.11503 1.22962 8.1759 1.17386C12.7199 -3.12122 23.3329 4.99388 7.9999 15.3909Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_211">
+                                                                  <rect width="16" height="15.4319" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 custom-col mb-30">
+                                                <div class="box17">
+                                                  <div class="group">
+                                                    <div class="overlap">
+                                                      <div class="shopping-cart">
+                                                        <div class="overlap-group">
+                                                          <div class="foto">
+                                                            <div class="div">
+                                                              <div class="rectangle"></div>
+                                                              <img class="img" src="assets/img/shop/1.png">
+                                                              <div class="rectangle-2"></div>
+                                                              <div class="text-wrapper">40%</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="qiymt">
+                                                            <p class="element">
+                                                              <span class="span">533.70₼</span>
+                                                              <span class="text-wrapper-2">&nbsp;&nbsp;</span>
+                                                              <span class="text-wrapper-3">849.50₼</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="aqlama"><p class="p">Günəşdən qoruyucu krem Tony Moly İntense Care</p></div>
+                                                          <div class="taksit">
+                                                            <div class="overlap-2">
+                                                              <div class="overlap-group-2">
+                                                                <div class="rectangle-3"></div>
+                                                                <div class="text-wrapper-4">12 ay</div>
+                                                              </div>
+                                                              <div class="text-wrapper-5">18 ay</div>
+                                                              <div class="text-wrapper-6">6 ay</div>
+                                                              <div class="text-wrapper-7">295.83 AZN</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="satc">
+                                                            <p class="sat-c-tony-moly">
+                                                              <span class="text-wrapper-8">Satıcı:</span> <span class="text-wrapper-9"> Tony Moly Azerbaijan</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="rezerv-et">
+                                                            <div class="div-wrapper">
+                                                            <svg style="transform: translate(30px,2px);" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                              <path d="M3.375 16.3125C2.92745 16.3125 2.49822 16.1347 2.18176 15.8182C1.86529 15.5018 1.6875 15.0726 1.6875 14.625V3.375C1.6875 2.92745 1.86529 2.49822 2.18176 2.18176C2.49822 1.86529 2.92745 1.6875 3.375 1.6875H12.375C12.5242 1.6875 12.6673 1.74676 12.7727 1.85225C12.8782 1.95774 12.9375 2.10082 12.9375 2.25C12.9375 2.39918 12.8782 2.54226 12.7727 2.64775C12.6673 2.75324 12.5242 2.8125 12.375 2.8125H3.375C3.22582 2.8125 3.08274 2.87176 2.97725 2.97725C2.87176 3.08274 2.8125 3.22582 2.8125 3.375V14.625C2.8125 14.7742 2.87176 14.9173 2.97725 15.0227C3.08274 15.1282 3.22582 15.1875 3.375 15.1875H14.625C14.7742 15.1875 14.9173 15.1282 15.0227 15.0227C15.1282 14.9173 15.1875 14.7742 15.1875 14.625V9C15.1875 8.85082 15.2468 8.70774 15.3523 8.60225C15.4577 8.49676 15.6008 8.4375 15.75 8.4375C15.8992 8.4375 16.0423 8.49676 16.1477 8.60225C16.2532 8.70774 16.3125 8.85082 16.3125 9V14.625C16.3125 15.0726 16.1347 15.5018 15.8182 15.8182C15.5018 16.1347 15.0726 16.3125 14.625 16.3125H3.375Z" fill="#212751"></path>
+                                                              <path d="M9.39823 11.6482L17.2732 3.77323C17.3255 3.72093 17.367 3.65884 17.3953 3.59051C17.4236 3.52218 17.4382 3.44894 17.4382 3.37498C17.4382 3.30102 17.4236 3.22778 17.3953 3.15945C17.367 3.09111 17.3255 3.02903 17.2732 2.97673C17.2209 2.92443 17.1588 2.88294 17.0905 2.85464C17.0222 2.82634 16.9489 2.81177 16.875 2.81177C16.801 2.81177 16.7278 2.82634 16.6594 2.85464C16.5911 2.88294 16.529 2.92443 16.4767 2.97673L8.99998 10.4546L6.02323 7.47673C5.97093 7.42443 5.90884 7.38294 5.84051 7.35464C5.77218 7.32633 5.69894 7.31177 5.62498 7.31177C5.55102 7.31177 5.47778 7.32633 5.40945 7.35464C5.34111 7.38294 5.27903 7.42443 5.22673 7.47673C5.17443 7.52903 5.13294 7.59111 5.10464 7.65945C5.07634 7.72778 5.06177 7.80102 5.06177 7.87498C5.06177 7.94894 5.07634 8.02218 5.10464 8.09051C5.13294 8.15884 5.17443 8.22093 5.22673 8.27323L8.60173 11.6482C8.65398 11.7006 8.71605 11.7422 8.78439 11.7705C8.85273 11.7989 8.92599 11.8135 8.99998 11.8135C9.07397 11.8135 9.14723 11.7989 9.21557 11.7705C9.2839 11.7422 9.34598 11.7006 9.39823 11.6482Z" fill="#212751"></path>
+                                                            </svg>
+                                                            <div class="text-wrapper-10">
+                                                            Rezerv et
+                                                            </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="camera-video-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none">
+                                                              <g clip-path="url(#clip0_1512_207)">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.12997C0 1.59706 0.210714 1.08596 0.585786 0.709135C0.960859 0.332306 1.46957 0.120605 2 0.120605H9.5C9.98509 0.120548 10.4537 0.297623 10.8185 0.618856C11.1833 0.940089 11.4195 1.38358 11.483 1.86675L14.593 0.478273C14.7452 0.410127 14.912 0.381284 15.0781 0.394367C15.2443 0.40745 15.4045 0.462043 15.5443 0.553185C15.6841 0.644326 15.7991 0.769125 15.8786 0.916238C15.9582 1.06335 15.9999 1.22811 16 1.39555V8.8925C15.9999 9.0598 15.9581 9.22442 15.8786 9.37141C15.7991 9.51841 15.6843 9.64312 15.5446 9.73424C15.4049 9.82535 15.2449 9.87998 15.0788 9.89318C14.9128 9.90637 14.7462 9.8777 14.594 9.80977L11.483 8.4213C11.4195 8.90446 11.1833 9.34796 10.8185 9.66919C10.4537 9.99042 9.98509 10.1675 9.5 10.1674H2C1.46957 10.1674 0.960859 9.95574 0.585786 9.57891C0.210714 9.20208 0 8.69099 0 8.15807V2.12997ZM11.5 7.32921L15 8.8925V1.39555L11.5 2.95884V7.32921ZM2 1.12529C1.73478 1.12529 1.48043 1.23114 1.29289 1.41955C1.10536 1.60797 1 1.86351 1 2.12997V8.15807C1 8.42453 1.10536 8.68008 1.29289 8.86849C1.48043 9.05691 1.73478 9.16276 2 9.16276H9.5C9.76522 9.16276 10.0196 9.05691 10.2071 8.86849C10.3946 8.68008 10.5 8.42453 10.5 8.15807V2.12997C10.5 1.86351 10.3946 1.60797 10.2071 1.41955C10.0196 1.23114 9.76522 1.12529 9.5 1.12529H2Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_207">
+                                                                  <rect width="16" height="10.288" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                      <div class="heart-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                              <g clip-path="url(#clip0_1512_211)">
+                                                                <path d="M7.9999 2.81966L7.2829 2.06346C5.5999 0.288373 2.5139 0.90093 1.3999 3.13261C0.876895 4.18227 0.758895 5.69776 1.7139 7.63188C2.6339 9.49418 4.5479 11.7248 7.9999 14.1545C11.4519 11.7248 13.3649 9.49418 14.2859 7.63188C15.2409 5.69673 15.1239 4.18227 14.5999 3.13261C13.4859 0.90093 10.3999 0.287347 8.7169 2.06243L7.9999 2.81966ZM7.9999 15.3909C-7.33311 4.99491 3.2789 -3.11917 7.8239 1.17284C7.8839 1.22927 7.9429 1.28775 7.9999 1.34829C8.05632 1.28781 8.11503 1.22962 8.1759 1.17386C12.7199 -3.12122 23.3329 4.99388 7.9999 15.3909Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_211">
+                                                                  <rect width="16" height="15.4319" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-6 custom-col mb-30">
+                                                <div class="box17">
+                                                  <div class="group">
+                                                    <div class="overlap">
+                                                      <div class="shopping-cart">
+                                                        <div class="overlap-group">
+                                                          <div class="foto">
+                                                            <div class="div">
+                                                              <div class="rectangle"></div>
+                                                              <img class="img" src="assets/img/shop/1.png">
+                                                              <div class="rectangle-2"></div>
+                                                              <div class="text-wrapper">40%</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="qiymt">
+                                                            <p class="element">
+                                                              <span class="span">533.70₼</span>
+                                                              <span class="text-wrapper-2">&nbsp;&nbsp;</span>
+                                                              <span class="text-wrapper-3">849.50₼</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="aqlama"><p class="p">Günəşdən qoruyucu krem Tony Moly İntense Care</p></div>
+                                                          <div class="taksit">
+                                                            <div class="overlap-2">
+                                                              <div class="overlap-group-2">
+                                                                <div class="rectangle-3"></div>
+                                                                <div class="text-wrapper-4">12 ay</div>
+                                                              </div>
+                                                              <div class="text-wrapper-5">18 ay</div>
+                                                              <div class="text-wrapper-6">6 ay</div>
+                                                              <div class="text-wrapper-7">295.83 AZN</div>
+                                                            </div>
+                                                          </div>
+                                                          <div class="satc">
+                                                            <p class="sat-c-tony-moly">
+                                                              <span class="text-wrapper-8">Satıcı:</span> <span class="text-wrapper-9"> Tony Moly Azerbaijan</span>
+                                                            </p>
+                                                          </div>
+                                                          <div class="rezerv-et">
+                                                            <div class="div-wrapper">
+                                                            <svg style="transform: translate(30px,2px);" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                              <path d="M3.375 16.3125C2.92745 16.3125 2.49822 16.1347 2.18176 15.8182C1.86529 15.5018 1.6875 15.0726 1.6875 14.625V3.375C1.6875 2.92745 1.86529 2.49822 2.18176 2.18176C2.49822 1.86529 2.92745 1.6875 3.375 1.6875H12.375C12.5242 1.6875 12.6673 1.74676 12.7727 1.85225C12.8782 1.95774 12.9375 2.10082 12.9375 2.25C12.9375 2.39918 12.8782 2.54226 12.7727 2.64775C12.6673 2.75324 12.5242 2.8125 12.375 2.8125H3.375C3.22582 2.8125 3.08274 2.87176 2.97725 2.97725C2.87176 3.08274 2.8125 3.22582 2.8125 3.375V14.625C2.8125 14.7742 2.87176 14.9173 2.97725 15.0227C3.08274 15.1282 3.22582 15.1875 3.375 15.1875H14.625C14.7742 15.1875 14.9173 15.1282 15.0227 15.0227C15.1282 14.9173 15.1875 14.7742 15.1875 14.625V9C15.1875 8.85082 15.2468 8.70774 15.3523 8.60225C15.4577 8.49676 15.6008 8.4375 15.75 8.4375C15.8992 8.4375 16.0423 8.49676 16.1477 8.60225C16.2532 8.70774 16.3125 8.85082 16.3125 9V14.625C16.3125 15.0726 16.1347 15.5018 15.8182 15.8182C15.5018 16.1347 15.0726 16.3125 14.625 16.3125H3.375Z" fill="#212751"></path>
+                                                              <path d="M9.39823 11.6482L17.2732 3.77323C17.3255 3.72093 17.367 3.65884 17.3953 3.59051C17.4236 3.52218 17.4382 3.44894 17.4382 3.37498C17.4382 3.30102 17.4236 3.22778 17.3953 3.15945C17.367 3.09111 17.3255 3.02903 17.2732 2.97673C17.2209 2.92443 17.1588 2.88294 17.0905 2.85464C17.0222 2.82634 16.9489 2.81177 16.875 2.81177C16.801 2.81177 16.7278 2.82634 16.6594 2.85464C16.5911 2.88294 16.529 2.92443 16.4767 2.97673L8.99998 10.4546L6.02323 7.47673C5.97093 7.42443 5.90884 7.38294 5.84051 7.35464C5.77218 7.32633 5.69894 7.31177 5.62498 7.31177C5.55102 7.31177 5.47778 7.32633 5.40945 7.35464C5.34111 7.38294 5.27903 7.42443 5.22673 7.47673C5.17443 7.52903 5.13294 7.59111 5.10464 7.65945C5.07634 7.72778 5.06177 7.80102 5.06177 7.87498C5.06177 7.94894 5.07634 8.02218 5.10464 8.09051C5.13294 8.15884 5.17443 8.22093 5.22673 8.27323L8.60173 11.6482C8.65398 11.7006 8.71605 11.7422 8.78439 11.7705C8.85273 11.7989 8.92599 11.8135 8.99998 11.8135C9.07397 11.8135 9.14723 11.7989 9.21557 11.7705C9.2839 11.7422 9.34598 11.7006 9.39823 11.6482Z" fill="#212751"></path>
+                                                            </svg>
+                                                            <div class="text-wrapper-10">
+                                                            Rezerv et
+                                                            </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="camera-video-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none">
+                                                              <g clip-path="url(#clip0_1512_207)">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.12997C0 1.59706 0.210714 1.08596 0.585786 0.709135C0.960859 0.332306 1.46957 0.120605 2 0.120605H9.5C9.98509 0.120548 10.4537 0.297623 10.8185 0.618856C11.1833 0.940089 11.4195 1.38358 11.483 1.86675L14.593 0.478273C14.7452 0.410127 14.912 0.381284 15.0781 0.394367C15.2443 0.40745 15.4045 0.462043 15.5443 0.553185C15.6841 0.644326 15.7991 0.769125 15.8786 0.916238C15.9582 1.06335 15.9999 1.22811 16 1.39555V8.8925C15.9999 9.0598 15.9581 9.22442 15.8786 9.37141C15.7991 9.51841 15.6843 9.64312 15.5446 9.73424C15.4049 9.82535 15.2449 9.87998 15.0788 9.89318C14.9128 9.90637 14.7462 9.8777 14.594 9.80977L11.483 8.4213C11.4195 8.90446 11.1833 9.34796 10.8185 9.66919C10.4537 9.99042 9.98509 10.1675 9.5 10.1674H2C1.46957 10.1674 0.960859 9.95574 0.585786 9.57891C0.210714 9.20208 0 8.69099 0 8.15807V2.12997ZM11.5 7.32921L15 8.8925V1.39555L11.5 2.95884V7.32921ZM2 1.12529C1.73478 1.12529 1.48043 1.23114 1.29289 1.41955C1.10536 1.60797 1 1.86351 1 2.12997V8.15807C1 8.42453 1.10536 8.68008 1.29289 8.86849C1.48043 9.05691 1.73478 9.16276 2 9.16276H9.5C9.76522 9.16276 10.0196 9.05691 10.2071 8.86849C10.3946 8.68008 10.5 8.42453 10.5 8.15807V2.12997C10.5 1.86351 10.3946 1.60797 10.2071 1.41955C10.0196 1.23114 9.76522 1.12529 9.5 1.12529H2Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_207">
+                                                                  <rect width="16" height="10.288" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                      <div class="heart-wrapper">
+                                                            <svg style="transform: translate(7px,3px);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                              <g clip-path="url(#clip0_1512_211)">
+                                                                <path d="M7.9999 2.81966L7.2829 2.06346C5.5999 0.288373 2.5139 0.90093 1.3999 3.13261C0.876895 4.18227 0.758895 5.69776 1.7139 7.63188C2.6339 9.49418 4.5479 11.7248 7.9999 14.1545C11.4519 11.7248 13.3649 9.49418 14.2859 7.63188C15.2409 5.69673 15.1239 4.18227 14.5999 3.13261C13.4859 0.90093 10.3999 0.287347 8.7169 2.06243L7.9999 2.81966ZM7.9999 15.3909C-7.33311 4.99491 3.2789 -3.11917 7.8239 1.17284C7.8839 1.22927 7.9429 1.28775 7.9999 1.34829C8.05632 1.28781 8.11503 1.22962 8.1759 1.17386C12.7199 -3.12122 23.3329 4.99388 7.9999 15.3909Z" fill="white"></path>
+                                                              </g>
+                                                              <defs>
+                                                                <clipPath id="clip0_1512_211">
+                                                                  <rect width="16" height="15.4319" fill="white"></rect>
+                                                                </clipPath>
+                                                              </defs>
+                                                            </svg>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/vendor/popper.js" defer="defer"></script>
+    <script src="assets/js/vendor/bootstrap.min.js" defer="defer"></script>
+    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/glightbox.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
